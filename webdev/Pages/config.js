@@ -1,0 +1,1 @@
+export const apiConfig = "https://springapilab-tnfn.onrender.com";
