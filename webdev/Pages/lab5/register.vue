@@ -14,6 +14,9 @@ async function save() {
   })
   if (response.data.dataValue.auth == 1) {
     isError.value = true
+  } else {
+    //go to login page
+    navigateTo('/lab5')
   }
   console.log('isError', isError.value)
   console.log('response', response.data)
